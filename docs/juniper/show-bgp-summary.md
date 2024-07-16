@@ -6,7 +6,7 @@ Display BGP Summary Information
 > show bgp summary
 ```
 
-Assumming we have 3 BGP Instance:
+Assumming we have 3 BGP Instances like:
 
 - 172.16.0.1 AS 100
 - 172.17.0.1 AS 200
