@@ -131,7 +131,6 @@ This command will only show match key contains with "optical power" string. Belo
 Receiver signal average optical power     :  0.0353 mW / -14.52 dBm
 ```
 
-
 ## Show Interfaces Speed
 
 This command will get the details of interface but only show the key contains with "Speed" to get link speed status.
