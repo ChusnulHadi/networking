@@ -51,3 +51,22 @@ set vpn l2tp remote-access authentication <username> static-ip <ip-address>
 ```
 
 User with static ip will not given address by ip pool
+
+## Configuring IPsec
+
+```shell
+set vpn ipsec interface <INTERFACE>
+```
+
+Use this command to define IPsec interface.
+
+```shell
+set vpn l2tp remote-access ipsec-settings authentication mode <pre-shared-secret | x509>
+```
+
+Set mode for IPsec authentication between VyOS and L2TP clients.
+
+```shell
+set vpn l2tp remote-access ipsec-settings authentication pre-shared-secret <secret>
+```
+Set predefined shared secret phrase
