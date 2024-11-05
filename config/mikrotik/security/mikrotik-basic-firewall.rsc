@@ -42,8 +42,8 @@
 /ip firewall filter add action=accept chain=input comment="Allow LDP Protocol" disabled=no dst-port=646 protocol=udp
 
 # Allow BTEST Server
-/ip firewall filter add action=accept chain=input comment="Allow BTEST Server" disabled=no dst-port=2000 protocol=TCP
-/ip firewall filter add action=accept chain=input comment="Allow BTEST Server" disabled=no dst-port=2000 protocol=UDP
+/ip firewall filter add action=accept chain=input comment="Allow BTEST Server" disabled=no dst-port=2000 protocol=tcp
+/ip firewall filter add action=accept chain=input comment="Allow BTEST Server" disabled=no dst-port=2000 protocol=udp
 
 # Allow Neighbors Discovery
 /ip firewall filter add action=accept chain=input comment="Allow Neighbors Discovery" disabled=no dst-port=5678 protocol=udp
