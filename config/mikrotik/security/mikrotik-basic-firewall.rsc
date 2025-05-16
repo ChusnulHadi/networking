@@ -61,4 +61,4 @@
 /ip firewall filter add action=accept chain=input comment="Allow SSH" disabled=no dst-port=22 protocol=tcp
 
 # Drop All
-/ip firewall filter add action=drop chain=input comment="Drop All" disabled=no
+/ip firewall filter add action=drop chain=input comment="Drop All" connection-state=!established,related,new disabled=no
