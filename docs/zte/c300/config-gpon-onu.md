@@ -2,7 +2,7 @@
 
 On the GPON config ONU interface, we can configure the OLT side such as name, description, gemport, tconf and service port.
 
-```shell
+```txt
 ZXAN(config)# interface gpon-onu_1/1/1:1
 ZXAN(config-if)# name ONT2
 ZXAN(config-if)# description ONT2
