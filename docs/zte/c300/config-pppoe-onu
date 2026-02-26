@@ -1,0 +1,9 @@
+# Config ONU with PPPOE
+
+```plaintext
+ZXAN(config)# pon-onu-mng GPON_ONU_PORT
+ZXAN(gpon-onu-mng 1/1/1:1)# service INTERNET gemport 1 cos 0 vlan 10
+ZXAN(gpon-onu-mng 1/1/1:1)# wan-ip 1 mode pppoe username PPP_USER password PPP_PASSWD vlan-profile PPPOE host 1
+ZXAN(gpon-onu-mng 1/1/1:1)# wan 1 ethuni 1,2,3 ssid 1 service internet host 1
+```
+From configuration above, we can define service name like we used on gpon onu interface with spesified vlan id. 
