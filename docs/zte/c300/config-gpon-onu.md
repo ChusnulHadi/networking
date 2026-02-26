@@ -25,7 +25,7 @@ in the example above we have defined tcont with type 4 Best Effort Gigabit upstr
 Gemport is a logical channel that bringing traffic between OLT and ONT inside TCont. Every service like Internet, VoIP, IPTV usually have different Gemport.
 
 - single TCont able to have many Gemport
-- gemport decide mapping traffic by vlan or service type
+- gemport determines mapping traffic by vlan or service type
 
 #### Service Port
 Service port is a service endpoint that connects gemport to the vlan on the Uplink side of the OLT. It determines how traffic from ONT is forwarded to  the Upstream Network
